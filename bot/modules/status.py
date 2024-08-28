@@ -476,7 +476,7 @@ async def send_repo_stats(_, query):
             if version != vtag:
                 update_info =  f"⚠️ New Version Update Available ⚠️"
 
-    repo_stats = f"<b><i><u>Zee Repository Info</u></i></b> \n\n" \
+    repo_stats = f"<b><i><u>Softleech Repository Info</u></i></b> \n\n" \
                  f"<b><i>Official Repository</i></b>        \n"   \
                  f"<code>- Updated   : </code> {commit_date}\n"   \
                  f"<code>- Version   : </code> {vtag}       \n"   \
@@ -528,7 +528,7 @@ async def send_bot_limits(_, query):
     UMT = "Unlimited" if config_dict["USER_MAX_TASKS"] == "" else config_dict["USER_MAX_TASKS"]
     BMT = "Unlimited" if config_dict["QUEUE_ALL"] == "" else config_dict["QUEUE_ALL"]
 
-    bot_limit = f"<b><i><u>Zee Bot Limitations</u></i></b>\n" \
+    bot_limit = f"<b><i><u>Softleech Bot Limitations</u></i></b>\n" \
                 f"<code>Torrent   : {TOR}</code> <b>GB</b>\n" \
                 f"<code>G-Drive   : {GDL}</code> <b>GB</b>\n" \
                 f"<code>Yt-Dlp    : {YTD}</code> <b>GB</b>\n" \
